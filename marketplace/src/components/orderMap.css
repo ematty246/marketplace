@@ -1,0 +1,7 @@
+.admin-order__info{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px;margin:18px 0}
+.admin-order__info .admin-order__customer{margin:0}
+.order-map{display:flex;flex-direction:column;min-height:280px;border:1px solid #dfe7e1;border-radius:10px;overflow:hidden;background:#f7faf7}
+.order-map iframe{display:block;flex:1;width:100%;min-height:250px;border:0}
+.order-map__caption{margin:0;padding:8px 12px;border-top:1px solid #dfe7e1;background:#fff;font-size:12px;color:#68736c}
+.order-map__empty{display:grid;flex:1;place-items:center;padding:24px;text-align:center;color:#68736c}
+@media(max-width:900px){.admin-order__info{grid-template-columns:1fr}.order-map iframe{min-height:260px}}
